@@ -1,32 +1,111 @@
-<DOCTYPE html>
+<!doctype html>
 <html>
 <head>
+<meta charset="utf-8">
+<title>home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link href="css/home.css" type="text/css" rel="stylesheet">
+<link href="css/common.css" type="text/css" rel="stylesheet">
+</head>
 
-    <link rel="stylesheet" href="styles.css">
-</head>
-<!--html coment --> 
 <body>
-    <h1>>This is an H1 heading</h1>
-    <h2>>This is an H1 heading</h2>
-    <h3>>This is an H1 heading</h3>
-    <h4>>This is an H1 heading</h4>
-    <h5>>This is an H1 heading</h5>
-    <h6>>This is an H1 heading</h6>
-<div><p>This is a paragraph inside a <span> div </span> </p>
-<p>text <b>bold</b> and text <i> italic </i> </p></div>
-<div1>
-    <head>
-    <link rel="skidoo.jpg" href="stylesheet">
-</head>
-<p style="color: yellow;">list</p>
-<ol type="1"><div class="">
-    <li> list1</li>
-    <li> list2</li>
-    <li> list3</li>
-</div></ol>
-</div1>
-<div2>
-</div2>
+<header> <img src="images/upper_logo.png" id="logo">
+  <div class="navbar navbar-light "> <a class="navbar-brand"></a>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+  <ul id="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="pages/historic.html">Historic</a></li>
+    <li><a href="pages/touristic.html">touristic sites</a>
+      <ul id="under">
+        <li><a href="pages/our lady of zahle.html">Our lady of Zahle</a></li>
+        <li><a href="pages/chateau.html">Chateau ksara</a></li>
+        <li><a href="pages/taanayel.html">Taanayel lake</a></li>
+        <li><a href="pages/berdawni.html">Berdawni</a></li>
+      </ul>
+    </li>
+    <li><a href="pages/hotel.html">Hotels</a> </li>
+    <li><a href="pages/contact.html">Contact us</a> </li>
+  </ul>
+</header>
+<div id="p">
+  <p>Located in the Bekaa Valley, Zahle is Lebanon’s third largest city. Known for producing a large share of Lebanon’s wine and arak, it is an idyllic mountain retreat just an hour from Beirut. It is also known as Lebanon’s City of Gastronomy, given its role in the celebrating the country’s rich flavors.</p>
+  <br>
+  <dl>
+    <dt>GETTING THERE</dt>
+    <dd><i><u>By car:</u></i> Follow the Beirut-Damascus highway out of the capital through Hazmieh and above the mountains until you reach Zahle. </dd>
+    <dd><i><u>By bus:</u></i> Buses and small vans depart from Jisr el Cola in Beirut to Zahle every half hour or so. The trip, which takes around an hour, includes a stop in Chtaura. </dd>
+  </dl>
+</div>
+	<div id="weather">
+	<a class="weatherwidget-io" href="https://forecast7.com/en/33d8535d90/zahle/" data-label_1="ZAHLÉ" data-label_2="WEATHER" data-theme="original" >ZAHLÉ WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+	</div>
+	  
+<div id="content">
+	
+  <div id="news">NEWS:</div>
+  <div id="text">
+    <ul>
+      <li>Waiting you!! on Friday 14-12-2018 From 4:00 to share with us the joy of christmas at berdawni</li>
+      <br>
+      <li>Zahle never disappoints ..Best christmas decoration Ever!!</li>
+      <br>
+      <li>what a way celebrate christmas at the garden of poets..waiting you every friday and saturday with many events and surprises..be many!</li>
+      <br>
+      <li>Two days left! Atlas vs hoops 🔥🔥🔥hurry up and buy your tickets</li>
+      <br>
+      <li>hurry up and reserve your places for new year parties at zahle restaurants and pubs!</li>
+      <br>
+    </ul>
+  </div>
+	
+</div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active"> <img class="d-block w-100" src="images/Zahle,Lebanon.jpg" alt="First slide"> </div>
+    <div class="carousel-item"> <img class="d-block w-100" src="images/zahle-lovely-city-missing-old-house-brick-color-10-31-2017-12-34-11-am-l.jpg" alt="Second slide"> </div>
+    <div class="carousel-item"> <img class="d-block w-100" src="images/BBal8RpCEAIo4O_.jpg" alt="Third slide"> </div>
+    <div class="carousel-item"> <img class="d-block w-100" src="images/480dbc4235c22447622c7ab64e40eb8a.jpg" alt="fourth slide"> </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="sr-only">Next</span> </a> 
+	</div>
+<footer>
+  <div id="left">
+    <h3><b><u>ADDRESS</u></b></h3>
+    <br>
+    Zahle<br>
+    <hr color="grey">
+    Landline : 08/111223<br>
+    <hr color="grey">
+    Email : info@zahletravel.com.lb<br>
+    <hr color="grey">
+    website : www.zahletravel.com.lb </div>
+  <div id="middle">
+    <h3><b><u>ZAHLE TRAVEL</u></b></h3>
+    "Better to see something once than hear about it a thousand times" <b>VISIT ZAHLE<b></div>
+  <div id="right">
+    <h3><b><u>Social Media</u></b></h3>
+    <br>
+	  <div id="sm">
+    <a href="https://www.facebook.com/"><img src="images/fb.png" id="img"></a> <a href="https://www.instagram.com/tripadvisor/?hl=en"><img src="images/instagram-png-instagram-png-logo-1455.png" id="img"></a> <a href="https://twitter.com/tripadvisor?lang=en"> <img src="images/twitter.png" id="img"></a>
+	  </div>
+	  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
-</DOCTYPE>
